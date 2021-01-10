@@ -79,7 +79,7 @@ function filterTodo(e) {
   const todos = todoList.childNodes;
   console.log(todos); //We want to check the todos working or not
   //Loop
-  todos.forEach(function (todos) {
+  todos.forEach(function (todo) {
     switch (e.target.value) {
       case "all":
         todos.style.display = "flex";
